@@ -1,5 +1,5 @@
 // Array
-var email = ["carljohnson@gmail.com", "gennaroboschetti@alice.it, paoloduzioni@boolean.it, johnnystecchino@virgilio.it"];
+var email = ["carljohnson@gmail.com", "gennaroboschetti@alice.it", "paoloduzioni@boolean.it", "johnnystecchino@virgilio.it"];
 
 // Prompt
 var user = prompt("Insert your email").toLowerCase();

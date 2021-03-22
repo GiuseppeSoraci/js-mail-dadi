@@ -11,7 +11,7 @@
 
 <body>
 
-    <section class=email-container>
+    <section class="email-container">
         <header>
             <h1>Welcome</h1>
             <p> Enter your email to access exclusive content</p>
@@ -21,10 +21,36 @@
 
             <div class="container">
                 <textarea id="email" cols="30" rows="1"></textarea>
-                <div class="login">
+                <div class="button">
                     <form action="#" method="get">
-                        <button type="button" class="log-in">
+                        <button type="button" class="btn">
                             Log In
+                        </button>
+                    </form>
+                </div>
+            </div>
+    </section>
+
+    <section class="dice-container">
+        <header>
+            <h1>Dice</h1>
+            <p>Challenge CPU to dice, who will be luckier?</p>
+        </header>
+
+        <main>
+
+            <div class="container">
+                <div class="challenge">
+                    <h4>YOU</h4>
+                    <textarea id="user" cols="2" rows="1"></textarea>
+                    <h4>CPU</h4>
+                    <textarea id="cpu" cols="2" rows="1"></textarea>
+                </div>
+                <textarea id="result" cols="30" rows="1"></textarea>
+                <div class="button">
+                    <form action="#" method="get">
+                        <button type="button" class="btn">
+                            Try again
                         </button>
                     </form>
                 </div>
